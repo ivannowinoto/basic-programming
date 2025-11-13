@@ -1,0 +1,11 @@
+1. Write a program that asks the user to enter a positive integer n, then calculates and prints the sum of the squares of the first n natural numbers.
+
+2. Write a program that prints all numbers between 1 and 1000 that are not divisible by 2 or 3.
+
+3. Write a program to find the smallest positive integer n such that the sum of the squares of integers from 1 to n is greater than or equal to 1000.
+
+4. Write a program to display the multiplication table from 1 to 19 in a formatted grid.
+
+5. Write a program to find and print all perfect numbers between 1 and 1000. (A perfect number is equal to the sum of its proper divisors.)
+
+6. Write a program that simulates rolling a dice repeatedly until a 6 appears. Print each dice result as it is generated.

@@ -1,0 +1,14 @@
+1. Write a Python program that asks the user to enter their first midterm, second midterm, and final exam scores. Then, calculate and display the total and average of the three exam scores.
+
+2. Write a program to convert a length given in feet and inches into centimetres. (1 inch = 2.54 cm, 1 foot = 12 inches)
+
+3. Suppose there are 5 seats per group in a classroom. Write a program that reads a seat number and determines which group the seat belongs to.
+
+4. Each can of drink costs 20 NTD, or 200 NTD per dozen (12 cans). Write a program that asks how many cans you want to buy, and then calculates and displays the total cost.
+
+5. Write a Python program that displays the number of Bytes in each of the following data sizes: KB, MB, GB, TB, PB, EB, ZB, and YB. (Use powers of 2, e.g., 1 KB = 2¹⁰ Bytes, 1 MB = 2²⁰ Bytes, etc.)
+
+6. Write a Python program that performs the following operations on a sentence entered by the user:
+    1. Split the sentence into words (remove extra spaces).
+    2. Join the words back into a single sentence separated by spaces.
+    3. Capitalize the first letter of each word, and display the new sentence.

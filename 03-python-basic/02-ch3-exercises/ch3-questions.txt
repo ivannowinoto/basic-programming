@@ -1,0 +1,11 @@
+1. Write a program that asks the user to enter an English sentence, then prints out all the words in reverse order.
+
+2. Given a list of students and the students who passed English and Math, write a Python program to:
+    a. Find students who passed both English and Math.
+    b. Find students who failed Math.
+    c. Find students who passed English but failed Math.
+
+3. Given two Chinese poems, use sets to find and display the common Chinese characters that appear in both poems.
+    (Ignore punctuation marks such as ，, 。, ？.)
+
+4. Write a program that lets the user enter three names and their email addresses, stores them in a dictionary, and then allows the user to search for an email address by entering a name.
