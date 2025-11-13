@@ -1,0 +1,7 @@
+1. This program has three functions, it will read or write a file named "data.txt", enter the menu and wait for user input,
+    Input "1" will read “data.txt” and output text in the follow format.
+    Input "2" Name Student ID Birthday will be stored in data.txt in the following file format.
+    Input ”3” to close the program.
+
+2. Input "1 n filename.csv" uses the writing mode. Using random 0~99, 4 numbers are a group of data, n is the number of data to be written. Use commas to separate the numbers, write Newline after a group.
+    Input "2 filename.csv" uses read mode, enter the filename to open the csv file. Read the grades of each student of four subjects, and output the total average score of the student in text.The csv file format is from left to right according to the four subjects of Chinese, English, Mathematics, and Society. The text format is as follows

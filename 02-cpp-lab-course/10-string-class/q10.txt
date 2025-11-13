@@ -1,0 +1,32 @@
+1. split
+    Input is a string str, a character c, str must contain the c character, please use the c character as the boundary to cut the str string and output it in a new line.
+    example:
+    input:
+    abc/def/ghi
+    /
+    output:
+    abc
+    def
+    ghi
+
+2. Input a string containing spaces, if it contains all lowercase English letters more than once, output "Pangrams", otherwise output "Not Pangram"
+    Input:
+    we promptly judged antique ivory buckles for the next prize
+    output:
+    pangrams
+
+    input:
+    we promptly judged antique ivory buckles for the prize
+    output:
+    Not pangram
+
+3. Input an integer n is the number of strings, then input each string in sequence, please output how many characters exist in each string.
+    Input:
+    3
+    abcdde
+    baccd
+    eeabg
+
+    Output:
+    2
+

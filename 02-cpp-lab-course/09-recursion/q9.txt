@@ -1,0 +1,29 @@
+1. Collatz conjecture: Enter an integer, if it is even, divide it by 2, if it is odd, multiply it by 3 and add 1. After many calculation, you will eventually get the value 1, Please output how many calculations it takes to get 1.
+    Input:
+    6
+    Output:
+    8
+
+2. Input a Integer N to indicate the number of input data, and then input the student name(Char array name[10]), mid-term exam scores and final exam scores (Both int). After getting the total score, sort each data from high to low, and then use \t to format and output the name, mid-term score, final score, and total score in four fields.
+    Note: Struct can be used as a variable to sort.
+    Input:
+    3
+    AAA 30 50
+    BBB 10 20
+    CCC 80 75
+    Output:
+    Name Midterm Final Total
+    CCC   80          75     155
+    AAA    30          50     80
+    BBB    10          20     30
+
+3. Please use Double Hashing to put the following key values ​​into hash table of size 13 (see Table 1).
+    {37, 30, 65, 24, 48, 18, 27, 53}
+    ℎ_1 (𝑘)=𝑘 𝑚𝑜𝑑 13           
+    ℎ_2 (𝑘)=2+(𝑘 𝑚𝑜𝑑 9)
+    h(k, i)=(ℎ_1 (𝑘)+i∗ℎ_2 (𝑘))  𝑚𝑜𝑑 13 (i=0, 1, 2, …, 12)
+    First calculation: Primer = h1(k)
+    If the Primers of the first point conflict, then: Primer = h1(k) + 1* h2(k)
+    If the Primer of the second point is still in conflict, then: Primer = h1(k) + 2*h2(k)
+    And so on until there are no more conflicts.
+

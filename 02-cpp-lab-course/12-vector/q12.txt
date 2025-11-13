@@ -1,0 +1,37 @@
+1. The first input integer n, which means that there are several integers to be input, then input the string of integers in sequence, Input the integer m, which means that there are several integers in another group to be input, and then input the string of integers in sequence.Compare these two sets of integers, and output the non-repeated integers in the two sets of arrays.
+    input:
+    3
+    3 4 5
+    4
+    1 3 5 7
+    output:
+    1 4 7
+
+2. Input an integer n, indicating the number of elements, and then input each element in sequence,
+    1. After output all the elements in sequence 
+    2. Drop the first element
+    3. Reverse the order of the elements 
+    repeat the actions 1~3 until all the elements are drop, then end the program.
+    input:
+    5
+    1 3 5 7 9
+    output:
+    1 3 5 7 9
+    9 7 5 3
+    3 5 7
+    7 5
+    5
+
+3. Input an integer n, then input n x n integers, and then input integers a, b, indicating that the column a and the b-th item are interchanged in the entire column. 
+    input:
+    3
+    1 2 3
+    4 5 6
+    7 8 9
+    0 1
+    output:
+    2 1 3
+    5 4 6
+    8 7 9
+
+

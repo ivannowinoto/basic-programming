@@ -1,0 +1,9 @@
+Change the previous linked-list to store name(char[20]), midterm(int), final(int), total(int), next(self-referential pointer). The following is the output format for function print.
+
+void print(Node* head)
+
+Name	Midterm    Final	Total
+AAA       10             20	30
+BBB       30             40	70
+CCC       50            60	110
+(Use \t to align)
