@@ -1,0 +1,48 @@
+1. Account registration verification: Enter a string of eight letters with only English letters and numbers, including at lest one uppercase English, one lowercase English, and one number. Punctuation is not allowed. 
+    If it does not meet the conditions, please output error, if it does, output success.
+
+    Sample 1:
+    Aa123457
+    Ans:
+    success
+
+    Sample 2:
+    Aa12345
+    Ans:
+    error
+
+    Sample 3:
+    Aa12345
+    Ans:
+    error
+
+    Sample 4:
+    AA123456
+    Ans:
+    error
+
+2. Enter a string of lowercase English names, change the beginning of each word to uppercase and output, and also output the abbreviation of the name.
+    Sample 1:
+    yo wei wang
+    Ans:
+    Yo Wei Wang
+    Y.W. Wang
+
+3. Input a string, if the string is completely symmetrical, output Yes, otherwise output No.
+    Sample 1:
+    abcba
+    Ans:
+    Yes
+
+    Sample 2:
+    aaabbb
+    Ans:
+    No
+    
+    Sample 3:
+    eeffee
+    Ans:
+    yes
+
+
+

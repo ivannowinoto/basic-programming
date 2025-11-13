@@ -1,0 +1,2 @@
+1. Inputs two integer. outputs GCD(greatest common divisor) and LCM(least common multiple) of two numbers.
+2. Input a odd number as the height of the rhombus, and draw that rhombus.

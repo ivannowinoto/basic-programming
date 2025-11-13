@@ -1,0 +1,4 @@
+1. Input a temperature t in Celsius (-100 <= t <= 100), if the input value is out of range, please output "out of range" (Fahrenheit=Celsius*9/5+32)
+2. Input Height H (1m<=H<=2.2m), Weight W (30.0kg<=W<=200.0kg), and output BMI (decimal)
+3. nput three integers, which represent the side lengths of the triangle respectively. Determine whether these three side lengths can form a triangle. (The sum of the lengths of any two sides is greater than the third side)
+4. To design an invoice matching program, please input an 8-digit valid integer, if the last three digits are the same as the table, output "Bingo!", if not, output "Nope!"

@@ -1,0 +1,6 @@
+1. Please input two integers a, b, and output the value of (a AND b) XOR (a OR b). (both AND and OR are bitwise operators).
+2. Please input ID, Data1, Data2, and output the header according to the rules in the table below
+    ID (3 bits) Data 1 (8 bits) Data 2 (7 bits)
+    3 50 40
+    104744
+3. Input two variables A, B, try to exchange the values stored in the two variables using only XOR operation.
