@@ -1,6 +1,6 @@
 # C++ Programming Undergraduate Coursework
 
-This repository showcases the programming assignments from the **C++ Programming** course taken during the first year of my undergraduate studies.  
+This folder showcases the programming assignments from the **C++ Programming** course taken during the first year of my undergraduate studies.  
 The course focused on developing a solid foundation in software development using C++.
 
 Each subfolder contains the corresponding code implementations from each lecture.

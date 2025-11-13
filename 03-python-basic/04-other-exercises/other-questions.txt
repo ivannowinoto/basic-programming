@@ -1,3 +1,92 @@
-**fight.py**
-Objective:
-Create a text-based battle game where the Hero (勇者) fights the Demon King (魔王). Both characters attack each other in turns until one of their HP reaches zero.
+1. fight.py
+
+    Objective:
+    Create a text-based battle game where the Hero (勇者) fights the Demon King (魔王). Both characters attack each other in turns until one of their HP reaches zero.
+
+    Requirements:
+    1) Classes for Characters
+        a. class Hero
+            Attributes: HP, skills (3 different attacks with random damage ranges)
+            Methods:
+                a) Attack method that calculates damage for each skill
+                b) Apply floating multiplier to vary the actual damage
+                c) Display damage dealt
+        b. class DemonKing
+            Attributes: HP, fixed attack value
+            Methods:
+                a) Attack method that applies damage to Hero (with floating multiplier)
+                b) Display damage dealt
+    2) Battle Flow
+        a. Each round, the Hero attacks first using a skill of choice.
+        b. Calculate and reduce Demon King’s HP based on Hero’s attack.
+        c. Check if Demon King’s HP ≤ 0 → Hero wins.
+        d. If Demon King still alive, Demon King attacks Hero.
+        e. Reduce Hero’s HP based on Demon King’s attack.
+        f. Check if Hero’s HP ≤ 0 → Demon King wins.
+        g. Repeat rounds until one HP reaches 0.
+    3) Gameplay Features
+        a. Display damage for each skill.
+        b. Display Hero’s attack damage.
+        c. Display Demon King’s attack damage.
+        d. Show remaining HP for both Hero and Demon King after each attack.
+        e. Randomize damage ranges for Hero’s skills (100–180) and include a floating multiplier (0.3–1.5).
+        f. Demon King’s attack is fixed (10) but can also have a floating multiplier.
+    4) Optional / Additional
+        a. Allow player to choose skills by number.
+        b. Display a victory message (WIN or LOSE) depending on who reaches 0 HP first.
+        c. Use clear formatting so it is easy to read the battle log in the console.
+
+
+2. voucher.py
+
+    Objective:
+    Write a Python program to check if a user's phone number qualifies for an 80% discount voucher.
+
+    Requirements:
+    1) The program repeatedly asks the user to input a phone number.
+    2) The phone number must be 10 digits and start with 09.
+    3) Mask digits 4–6 of the phone number with * to protect privacy.
+    4) Check if the phone number contains the digits 2 or 8 anywhere.
+    5) If it contains 2 or 8, print that the user gets the 80% discount voucher.
+    6) Display:
+        a. Last three digits of the phone number
+        b. Masked phone number
+        c. Whether it qualifies for the discount
+    7) Use Python data structures:
+        a. List for reading/manipulating the phone number
+        b. len() to check phone number length
+        c. List indexing to mask digits and check start of number
+        d. Set {} to check if digits 2 or 8 are present
+
+
+3. average.py
+
+    Objective:
+    Write a Python program that allows users to input course information and continuously calculates the current GPA/average.
+
+    Requirements:
+    1) The user can input course name, grade, and credit repeatedly.
+    2) Store each course’s information using a dictionary (dict).
+    3) After each new course entry, calculate and display the current overall average.
+    4) The program should allow continuous input of course information until the user decides to stop.
+
+
+4. score.py 
+
+    Objective:
+    Write a Python program to simulate exam scores for a class and analyze pass rates.
+
+    Requirements:
+    1) The user inputs number of students N (1–9999).
+    2) Generate random scores (0–100) for Math and English for each student.
+    3) Each student has a student ID in the format 110xxxx (e.g., N=1 → 1100001, N=9999 → 1109999).
+    4) Use dictionaries to store scores:
+        e.g., math[student_id] = score, english[student_id] = score
+    5) Use sets to calculate and output:
+        a. Number of students who passed both subjects and their IDs
+        b. Number of students who passed only one subject and their IDs
+        c. Number of students who passed only English and their IDs
+        d. Number of students who passed only Math and their IDs
+        e. Math pass rate
+        f. English pass rate
+        g. Overall pass rate for both subjects
